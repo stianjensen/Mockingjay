@@ -1,3 +1,4 @@
 [submodule "URITemplate"]
 	path = URITemplate
-	url = https://github.com/kylef/URITemplate.swift
+	url = git@github.com:mogstad/URITemplate.swift.git
+	branch = xcode-1.2
