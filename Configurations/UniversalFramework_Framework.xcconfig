@@ -12,6 +12,7 @@
 CODE_SIGN_IDENTITY[sdk=iphoneos*]             = iPhone Developer
 TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]  = 1,2
 TARGETED_DEVICE_FAMILY[sdk=iphone*]           = 1,2
+IPHONEOS_DEPLOYMENT_TARGET[sdk=iphone*]       = 8.0
 
 // OSX-specific default settings
 FRAMEWORK_VERSION[sdk=macosx*]                = A

@@ -16,9 +16,9 @@
 		274367B01AA29E510030C97B /* Builders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367AF1AA29E510030C97B /* Builders.swift */; };
 		274367B21AA29E620030C97B /* BuildersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367B11AA29E620030C97B /* BuildersTests.swift */; };
 		274367C61AA35FD00030C97B /* NSURLSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367C51AA35FD00030C97B /* NSURLSessionConfiguration.swift */; };
-		2746CDC51A702F7800719B66 /* Mockingjay.h in Headers */ = {isa = PBXBuildFile; fileRef = 2746CDC41A702F7800719B66 /* Mockingjay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2746CDCB1A702F7800719B66 /* Mockingjay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2746CDBF1A702F7800719B66 /* Mockingjay.framework */; };
 		2746CDD21A702F7800719B66 /* MockingjayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2746CDD11A702F7800719B66 /* MockingjayTests.swift */; };
+		2D21739B1AAF084200783027 /* Mockingjay.h in Headers */ = {isa = PBXBuildFile; fileRef = 2746CDC41A702F7800719B66 /* Mockingjay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1E3C5701AA4EA130069C998 /* XCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743679B1AA28D4D0030C97B /* XCTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -186,7 +186,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2746CDC51A702F7800719B66 /* Mockingjay.h in Headers */,
+				2D21739B1AAF084200783027 /* Mockingjay.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

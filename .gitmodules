@@ -1,4 +1,4 @@
 [submodule "URITemplate"]
 	path = URITemplate
 	url = git@github.com:mogstad/URITemplate.swift.git
-	branch = xcode-1.2
+	branch = swift_1_2_embed
