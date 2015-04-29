@@ -7,10 +7,9 @@
 //
 
 // Make it universal
-SUPPORTED_PLATFORMS                    = iphonesimulator iphoneos macosx
+SUPPORTED_PLATFORMS                    = iphonesimulator iphoneos
 VALID_ARCHS[sdk=iphoneos*]             = arm64 armv7 armv7s
 VALID_ARCHS[sdk=iphonesimulator*]      = arm64 armv7 armv7s
-VALID_ARCHS[sdk=macosx*]               = i386 x86_64
 
 // Dynamic linking uses different default copy paths
 LD_RUNPATH_SEARCH_PATHS[sdk=iphoneos*]        = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'

@@ -444,8 +444,10 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Mockingjay/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.3;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -468,8 +470,10 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Mockingjay/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.3;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -478,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2746CDDE1A702FC100719B66 /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -492,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2746CDDE1A702FC100719B66 /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MockingjayTests/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
