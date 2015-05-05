@@ -484,7 +484,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2746CDDE1A702FC100719B66 /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -492,6 +492,7 @@
 				);
 				INFOPLIST_FILE = MockingjayTests/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -499,10 +500,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2746CDDE1A702FC100719B66 /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MockingjayTests/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
